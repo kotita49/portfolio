@@ -1,0 +1,95 @@
+#welcome-section{
+    height: 500px;
+    background-color: #bd8600;
+    width: 100%;
+  }
+  p{
+    font-size: 18px;
+  }
+  #welcome-section h1{
+  text-align: center;
+    padding: 70px 20px 5px 10px;
+  }
+  #welcome-section, h2{
+    text-align: center;
+  }
+  .container {
+    margin: 30px auto;
+      font-size: 40px;
+      width: 80%;
+   
+     display: grid;
+      /* Only change code below this line */
+  grid-template-rows: repeat(3, 1fr);
+      grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    
+      /* Only change code above this line */
+    }
+  img{
+    height:80%;
+    width: 95%;
+  }
+  #projects{
+     height: auto; 
+  }
+  .project-tile{
+    text-align: center;
+    padding-top: 10px;
+  }
+  .project-tile h3{
+    font-size: 26px;
+    background-color: #646970;
+  }
+  h3, #contact{
+    text-align: center;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+    
+  }
+  
+  nav{
+    position: fixed;
+    top: 6px;
+    background-color: #996800;
+    padding: 1em 3em 1em 70%;
+   
+    height: 20px;
+    
+    }
+  #nav-bar {
+     text-align: justify;
+    font-size: 26px;
+    width: 100%;
+     
+  }
+  #contact{
+    height: 400px;
+    background-color: darkseagreen;
+}
+#contact h2{
+    padding: 50px 30px 20px 30px;
+}
+#profile-link{
+    font-size: 20px;
+}
+  @media (max-width: 600px){
+      nav{
+        padding: 1em 3em 1em 10em;
+      }
+    #nav-bar {
+      font-size: 16px;
+
+       }
+  
+  .container {
+    margin: 10px auto;
+      font-size: 20px;
+      width: 90%;
+   height: auto;
+      grid-gap: 10px;
+    
+       }
+  }
